@@ -1,0 +1,33 @@
+#include <stdio.h>
+{
+char a,b,c='a';
+int a=4;
+float a=5.5;
+char a[34];
+//char a[]="sdfS",b[]="sdfsdf";
+printf("%d",5) printf("%d",5);
+
+/*
+fgfgfgsdg
+sdgsdg
+
+
+
+sdgg
+*   /   */
+
+printf("%d",5);
+b=a+4;
+b&&a
+
+a==b?sfs?df:  :sdf;
+}
+
+/*
+////
+
+
+
+
+
+*/

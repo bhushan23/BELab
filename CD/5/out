@@ -1,0 +1,13 @@
+  
+Error: ReDeclaration of CHAR Variable bh (Previous Declaration as INT32) 
+Error: ReDeclaration of DOUBLE64 Variable as (Previous Declaration as CHAR)
+Error: ReDeclaration of DOUBLE64 Variable sa (Previous Declaration as INT32) 
+
+				SYMBOL TABLE
+	| Index | Label | size | location |
+	|      1|     bh|     4|       100|
+	|      2|     sa|     4|       104|
+	|      3|     as|     1|       105|
+	|      4|     sd|     1|       106|
+	|      5|     d4|     8|       114|
+	|      6|     ff|     4|       118|

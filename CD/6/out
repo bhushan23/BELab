@@ -1,0 +1,17 @@
+    
+Error at line 4: ReDeclaration of FLOAT Variable as (Previous Declaration as CHAR)    
+Error at line 6: Type Mismatch INT and CHAR
+Error at line 6: Undeclared Variable bh = sa + as;    
+Error at line 7: Undeclared Variable bh = bh + bh;  
+Error at line 8: Undeclared Variable ff
+Error at line 8: Undeclared Variable s1 = ff;
+
+				SYMBOL TABLE
+	| Index | Label | size | location |
+	|      1|     bh|     4|       100|
+	|      2|     sa|     4|       104|
+	|      3|     as|     1|       105|
+	|      4|      g|     1|       106|
+	|      5|     sd|     1|       107|
+	|      6|     s1|     8|       115|
+	|      7|     h4|     8|       123|

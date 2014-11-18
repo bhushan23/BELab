@@ -1,0 +1,40 @@
+                     
+Generated 3 Address Code 
+temp0 = b+c;
+temp1 = temp0+d;
+g = temp1;
+temp2 = b-d;
+LT temp2,0
+GOTO IF.End;
+If.Then:
+temp3 = b+c;
+a = temp3;
+If.End:
+ttemp4 = g+c;
+a = temp4;
+
+
+
+				SYMBOL TABLE
+	| Index | Label | size | location |
+	|      1|      a|     4|       100|
+	|      2|      g|     4|       104|
+	|      3|      h|     4|       108|
+	|      4|      b|     4|       112|
+	|      5|      c|     4|       116|
+	|      6|      d|     4|       120|
+	|      7|      i|     4|       124|
+	|      8|  temp0|     4|       128|
+	|      9|  temp1|     4|       132|
+	|     10|  temp2|     4|       136|
+	|     11|  temp3|     4|       140|
+	|     12|  temp4|     4|       144|
+
+
+				Quad TABLE
+	| Index | SRC1  | OP   |  SRC2 | TARGET |
+	|      1|      b|     +|      c|   temp0|
+	|      2|  temp0|     +|      d|   temp1|
+	|      3|      b|     -|      d|   temp2|
+	|      4|      b|     +|      c|   temp3|
+	|      5|      g|     +|      c|   temp4|

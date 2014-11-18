@@ -1,0 +1,14 @@
+%{
+int counter = 0;
+%}
+letter [a-zA-Z]
+
+%%
+{letter}+  {printf("Word\n"; }
+%%
+main(){
+yylex();
+printf("Total : %d",counter);
+} 
+
+

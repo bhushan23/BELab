@@ -1,0 +1,10 @@
+int a,g,h;
+int b,c,d,i;
+ g = b + c + d;
+
+
+if(d < b) {
+
+a = b+c;
+  } 
+  a = g+c;
