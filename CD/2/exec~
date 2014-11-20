@@ -1,4 +1,0 @@
-lex 2.l
-gcc lex.yy.c -ll -o l
-./l
-

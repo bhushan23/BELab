@@ -1,4 +1,0 @@
-lex 2lex.l
-gcc lex.yy.c -ll -o l
-./l test out
-
