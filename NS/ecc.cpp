@@ -3,7 +3,25 @@
 #include <math.h>
 using namespace std;
 
+int modInverse(int a,int b){
+    int x0 = 0,x1 = 1;
+    int b0 = b;
+    int q,t;
+    if(b==1)
+        return 1;
+    while(a>1){
+        q = a/b;
+        t = b;
+        b = a%b;
+        a = t;
+        t = x0, x0 = x1 - q*x0, x1 = t;
+    }
+    if(x1 < 0)
+        x1+=b0;
+    return x1;    
+}
 
+/*
 pair<int, pair<int, int> > extendedEuclid(int a, int b) {
     if(a == 0) return make_pair(b, make_pair(0, 1));
     pair<int, pair<int, int> > p;
@@ -13,6 +31,8 @@ pair<int, pair<int, int> > extendedEuclid(int a, int b) {
 int modInverse(int a, int m) {
     return (extendedEuclid(a,m).second.first + m) % m;
 }
+*/
+
 int computeMulti(int n,int* ar){
     int max;
     for(int i=0;i<15;++i){
